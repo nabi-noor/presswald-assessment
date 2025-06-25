@@ -1,0 +1,20 @@
+[project]
+title = "Preswald AQI Dashboard"
+version = "0.1.0"
+port = 8501
+slug = "aqi-dashboard-653228"
+entrypoint = "hello.py"
+
+[branding]
+name = "AQI Dashboard By Noor Nabi"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#F89613"
+
+[data.air_quality_health_dataset]
+type = "csv"
+path = "data/air_quality_health_dataset.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
