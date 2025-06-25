@@ -3,7 +3,7 @@ title = "Preswald AQI Dashboard"
 version = "0.1.0"
 port = 8501
 slug = "aqi-dashboard-653228"
-entrypoint = "hello.py"
+entrypoint = "app.py"
 
 [branding]
 name = "AQI Dashboard By Noor Nabi"
