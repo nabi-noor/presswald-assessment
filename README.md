@@ -67,5 +67,7 @@ air-quality-dashboard/
 ├── README.md             
 ├── requirements.txt      
 ├── data/                 
-└── assets/               
+|── images/
+├── preswald.toml
+├── secrets.toml               
 ```
